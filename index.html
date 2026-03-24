@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>路可的工具箱 | Luke's Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #0f172a;
+            /* 深藍黑 */
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            /* Slate-800 半透明 */
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="text-slate-200 min-h-screen">
+
+    <header class="py-16 px-6 text-center">
+        <h1 class="text-4xl font-bold text-white tracking-tight mb-3">Command Center</h1>
+        <p class="text-slate-400 text-lg">個人自動化工具與開發資產中心</p>
+        <div class="mt-6 flex justify-center space-x-3">
+            <span
+                class="px-3 py-1 bg-slate-800 text-slate-400 text-xs font-medium rounded-md border border-slate-700">Luke
+                AI Lab</span>
+            <span
+                class="px-3 py-1 bg-blue-900/30 text-blue-400 text-xs font-medium rounded-md border border-blue-800/50">v1.2.0</span>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 pb-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <a href="https://lukerker.github.io/Photo-Date-Stamper/"
+                class="group block p-8 glass-card rounded-2xl hover:bg-slate-800/80 transition-all duration-300 hover:border-blue-500/50">
+                <div
+                    class="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white mb-6 shadow-lg shadow-blue-900/20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">相片批次日期浮水印</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    純前端處理，支援批次選取、日期顏色自定義及照片方向自動修正。
+                </p>
+                <div
+                    class="text-blue-400 font-medium text-sm flex items-center group-hover:translate-x-1 transition-transform">
+                    啟動工具 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+            </a>
+
+            <a href="https://lukerker.github.io/drawboard/"
+                class="group block p-8 glass-card rounded-2xl hover:bg-slate-800/80 transition-all duration-300 hover:border-purple-500/50">
+                <div
+                    class="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center text-white mb-6 shadow-lg shadow-purple-900/20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">靈感畫布</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    視覺化創意發想基地，隨時捕捉隨手記錄的音樂與程式開發靈感。
+                </p>
+                <div
+                    class="text-purple-400 font-medium text-sm flex items-center group-hover:translate-x-1 transition-transform">
+                    進入畫布 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+            </a>
+
+            <a href="https://lukerker.github.io/picsiz/"
+                class="group block p-8 glass-card rounded-2xl hover:bg-slate-800/80 transition-all duration-300 hover:border-emerald-500/50">
+                <div
+                    class="w-12 h-12 bg-emerald-600 rounded-xl flex items-center justify-center text-white mb-6 shadow-lg shadow-emerald-900/20">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">圖片尺寸調整</h3>
+                <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                    專為開發與縮圖設計，支援精準的解析度調整與多種長寬比設定。
+                </p>
+                <div
+                    class="text-emerald-400 font-medium text-sm flex items-center group-hover:translate-x-1 transition-transform">
+                    開始調整 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-12 border-t border-slate-800">
+        <p class="text-slate-500 text-sm">© 2026 Luker. All rights reserved.</p>
+        <p class="text-slate-600 text-xs mt-2 font-light tracking-widest uppercase">「在科技與音樂之間，尋找人生的新突破。」</p>
+    </footer>
+
+</body>
+
+</html>
